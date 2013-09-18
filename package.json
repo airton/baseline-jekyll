@@ -1,20 +1,15 @@
 {
-  "name": "emtu-style-guide",
+  "name": "baseline-jekyll",
   "version": "0.0.0",
-  "description": "Starter code for getting up and running with Jekyll.  Gives an example of the layout and files you'll need to start writing and publish a blog using git and GitHub.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/a2comunicacao/jekyll-quickstart.git"
-  },
-  "author": "",
-  "license": "BSD",
-  "readmeFilename": "README.markdown",
-  "gitHead": "f3d29b8581c46ab157637d1451e0df843ddbc5b3",
-  "bugs": {
-    "url": "https://github.com/a2comunicacao/jekyll-quickstart/issues"
+  "description": "Esse é um template feito em Jekyll para iniciar a montagem de novos guias de estilos.",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.4.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-comment-media-queries": "~0.1.0"
   }
 }
