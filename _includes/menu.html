@@ -1,0 +1,27 @@
+<div class="menu-styleguide">
+	<a href="/" class="menu-heading">Baseline Jekyll</a>
+	<ul class="menu">
+		
+		{% if page.url =='/index.html' %}
+			<li  class="active">
+				<a href="/index.html">Sobre</a>
+			</li>
+		{% else %}
+			<li>
+				<a href="/index.html">Sobre</a>
+			</li>
+		{% endif %}	
+			
+
+
+		{% for node in site.pages %}
+			{% if node.url != '/index.html' %}
+				{% if page.url == node.url %}			
+				<li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+				{% else %}
+				<li><a href="{{node.url}}">{{node.title}}</a></li>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>

@@ -1,0 +1,20 @@
+{
+  "name": "emtu-style-guide",
+  "version": "0.0.0",
+  "description": "Starter code for getting up and running with Jekyll.  Gives an example of the layout and files you'll need to start writing and publish a blog using git and GitHub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a2comunicacao/jekyll-quickstart.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.markdown",
+  "gitHead": "f3d29b8581c46ab157637d1451e0df843ddbc5b3",
+  "bugs": {
+    "url": "https://github.com/a2comunicacao/jekyll-quickstart/issues"
+  }
+}
