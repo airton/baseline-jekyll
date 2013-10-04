@@ -106,7 +106,7 @@ body{
 }
 .sg .menu-styleguide .menu-heading{
 	padding: 20px 10px 10px 15px;
-	color: #fff;
+	color: #fff; 
 	display: block;
 	border-bottom: 1px solid #333;
 	font-size: 22px;
@@ -314,7 +314,9 @@ body{
 		background: rgb(250, 250, 250);
 		-moz-border-radius: 3px;
 		-webkit-border-radius: 3px;
-		border-radius: 3px;
+		border-radius: 3px;		
+	}
+	.ie7 pre, .ie7 code{
 		text-transform: lowercase;
 	}
 	pre, pre code {
