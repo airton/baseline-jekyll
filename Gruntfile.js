@@ -28,7 +28,11 @@ module.exports = function( grunt ) {
       // Watch
       watch: {
          sass: {
-            files: ['assets/css/sass/*.scss'],
+            files: [	'assets/css/sass/*.scss', 
+            			'assets/css/sass/atomos/*.scss',
+            			'assets/css/sass/moleculas/*.scss',
+            			'assets/css/sass/organismos/*.scss'
+            		 ],
             tasks: ['sass:dev']
          },
          'sass:index': {
