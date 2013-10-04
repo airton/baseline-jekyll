@@ -12,16 +12,19 @@ Esse é um template feito em Jekyll para iniciar a montagem de novos guias de es
 
     git clone https://github.com/a2comunicacao/baseline-jekyll.git
 
-4. Rodar o Jekyll
+4.Rodar o Jekyll
 
     jekyll serve --watch
 
+5.Instalar as dependências do Grunt
 
-5.Rodar o Grunt
+	npm install
+
+6.Rodar o Grunt
 
 	grunt w
 
-6.Abrir no browser http://localhost:4000/
+7.Abrir no browser http://localhost:4000/
 
 ## Adicionar novo módulo ##
 
@@ -31,9 +34,9 @@ Esse é um template feito em Jekyll para iniciar a montagem de novos guias de es
 
 ## Adicionar os Layouts ##
 
-1. Abrir o layouts.html
+1.Abrir o layouts.html
 
-2. Adicionar manualmente as imagens de layout
+2.Adicionar manualmente as imagens de layout
 
 
 ## Adicionar as Cores ##
